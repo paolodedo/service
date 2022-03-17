@@ -1,0 +1,4 @@
+include:
+  - project: 'libs/gitlab/ci'
+    ref: master
+    file: 'metamorphosis/meta-generic-gcp-build-ci.yml'

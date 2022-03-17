@@ -1,0 +1,15 @@
+spring:
+  data:
+    rest.base-path: /service
+  neo4j:
+    uri: neo4j://localhost:7687
+    authentication:
+      username: neo4j
+      password: admin
+
+server.port: 8082
+
+server:
+  error:
+    include-message: always
+    include-binding-errors: always
